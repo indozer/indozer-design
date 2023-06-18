@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Design Indozer</title>
+    <script>
+      // Функция для вычисления времени, прошедшего с определенной даты
+      function showElapsedTime() {
+        var startDate = new Date('2023-06-13'); // Замените дату на свою нужную дату
+        var currentDate = new Date();
+        var elapsedTime = currentDate - startDate;
+
+        // Преобразование времени в формат дней, часов, минут и секунд
+        var days = Math.floor(elapsedTime / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((elapsedTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+        // Вывод времени на страницу
+        var timerElement = document.getElementById('timer');
+        timerElement.textContent = 'Я в дизайне уже: ' + days + ' дней и ' + hours + ' часов.';
+      }
+
+      // Запуск функции при загрузке страницы
+      window.onload = function () {
+        showElapsedTime();
+      };
+    </script>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="header-navigation">
+      <a class="img-link"  href="./index.html">
+        <img class="img-avatar" src="./img/indozer.png" alt="Indozer" width="150" height="40" />
+      </a>
+      <a class="main-link" href="./index.html">Главная</a>
+      <a class="des-link" href="./avatar.html">Аватарки</a>
+    </nav>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div class="main-div">
+            <h1 class="main-title">Привет! Я Indozer.
+                Tворческий и опытный дизайнер специализирующийся в области веб-дизайна и графического дизайна.
+                Моя страсть к искусству и дизайну позволяет мне создавать эстетически привлекательные и функциональные решения, которые впечатляют и вдохновляют.</h1>
+            </div>
+        </section>
+
+        <section>
+          <p id="timer"></p>
+        </section>
+
+        <section class="tg-section">
+          <a class="tg-href" href="https://t.me/tufik16">
+            <img class="tg-img" src="./img/telegram.png" alt="telegram">
+          </a>
+        </section>
+    </main>
+
+    <footer>
+      <section>
+      <h3>© indozer.store</h3>
+      <h2><a href="./politika.html">Пользовательское соглашение</a></h2>
+    </section>
+  </footer>
+  </body>
+</html>

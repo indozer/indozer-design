@@ -1,0 +1,84 @@
+* {
+    background-color: #070911;
+    color: aliceblue;
+    text-decoration: none;
+    background-image: url(img/DntQqaTVAAAhgCe.remini-enhanced.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+    /* border: outset red; */
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    /* border: outset red; */
+    font-size: 24px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    line-height: 34px;
+    animation-name: fadeIn;
+    animation-duration: 2s; /* ������������ �������� */
+    animation-fill-mode: forwards;
+}
+
+.main-div {
+    display: flex;
+    padding-right: 450px;
+}
+
+.main-link {
+    padding-left: 600px;
+    color: rgb(65, 0, 145);
+}
+
+a:hover {
+    color: rgb(65, 0, 145);
+}
+
+.main-section {
+    margin-top: 150px;
+    padding-left: 490px;
+}
+
+#timer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-left: 550px;
+    color: rgb(162, 152, 255);
+}
+
+.tg-section {
+    margin-top: 250px;
+    margin-left: 820px;
+}
+
+.tg-img {
+    width: 200px;
+    height: auto;
+}

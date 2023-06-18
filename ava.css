@@ -1,0 +1,64 @@
+* {
+    background-color: #070911;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none; 
+    background-image: url(img/DntQqaTVAAAhgCe.remini-enhanced.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+    /* border: outset red; */
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    /* border: outset red; */
+    font-size: 24px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+}
+
+.main-link {
+    padding-left: 600px;
+}
+
+.img-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc((100% - 2*30) / 3);
+    margin-left: 210px;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+
+.img{
+    width: 390px;
+    height: 390px;
+    align-items: center;
+    border:1px solid black;
+    border-radius:30px;
+}
+
+.des-link {
+    color: rgb(65, 0, 145);
+}
+
+a:hover {
+    color: rgb(65, 0, 145);
+}
