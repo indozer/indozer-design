@@ -2,7 +2,7 @@
     background-color: #070911;
     color: aliceblue;
     text-decoration: none;
-    background-image: url(img/DntQqaTVAAAhgCe.remini-enhanced.png);
+    background-image: url(/img/DntQqaTVAAAhgCe.remini-enhanced.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -33,3 +33,26 @@ main {
 .main-link {
     padding-left: 600px;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    line-height: 34px;
+    animation-name: fadeIn;
+    animation-duration: 2s; /* ������������ �������� */
+    animation-fill-mode: forwards;
+}
+
+.main-section {
+    margin-top: 150px;
+    padding-left: 490px;
+}
+
