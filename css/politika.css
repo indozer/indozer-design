@@ -1,7 +1,7 @@
 * {
     color: aliceblue;
     text-decoration: none;
-    background-image: url(/img/background.png);
+    background-image: url(/img/background.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -54,4 +54,17 @@ main {
     margin-top: 150px;
     padding-left: 490px;
 }
+
+a:hover {
+    color: rgb(65, 0, 145);
+}
+
+.main-link:hover {
+    color: rgb(65, 0, 145);
+}
+
+.des-link:hover {
+    color: rgb(65, 0, 145);
+}
+
 
